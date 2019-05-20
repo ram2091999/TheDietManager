@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href= "assets/favicon.ico" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Signika&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <title>The Diet Manager</title>
+</head>
+
+<body>
+  <div class="intro">
+    <h1 class="introh1"></h1>
+  </div>
+  <div class="welcome-div">
+    <form class="name-form" action="index.html" method="post">
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" value="">
+      <label for="age">Age:</label>
+      <input type="number" name="age" id="age" value="">
+      <label for="weight">Weight (in kgs) :</label>
+      <input type="number" name="weight" id="weight" value="">
+      <label for="height">Height (in meters):</label>
+      <input type="number" name="height" id="height" value="">
+
+      <button type="button" class="abc" name="button">Submit</button>
+    </form>
+  </div>
+  <div class="message">
+    <h2 class="message-h2"></h2>
+    <h2 class="message-h2"></h2>
+  </div>
+  <div class="calorie">
+
+    <div class="calorieMessage">
+
+
+      <h3 class="calorieh3">Your calorie intake today:</h3>
+      <ul>
+
+      </ul>
+      <button type="button" class="calorieMessageButton" name="button">+</button>
+      <h2 class="changeCalorieConsumed"></h2>
+    </div>
+
+
+    <form class="foodForm" id="foodForm1" action="index.html" method="post">
+      <label for="Foodname">Food Name:</label>
+      <input type="text" name="" id="food-name" value="">
+      <label for="">Carbs in grams:</label>
+      <input type="number" name="" id="carbs" value="">
+      <label for="">Protein in grams:</label>
+      <input type="number" name="" id="protein" value="">
+       <label for="">Fats in grams:</label>
+      <input type="text" name="" id="fat" value="">
+      <button type="button" class="add" id="add1" name="button">Submit</button>
+    </form>
+
+  </div>
+
+  <div class="water">
+    <div class="waterContents">
+
+
+      <h1 id="time"></h1>
+      <h2 class="waterToDrink"></h2>
+      <h3>Water you consumed today:</h3>
+      <ul class="waterConsumedUl">
+
+      </ul>
+      <button type="button" class="waterDivButton" name="button">+</button>
+    </div>
+    <form class="waterForm" action="index.html" method="post">
+      <label for="">Amount of water you consumed (in liters):</label>
+      <input type="number" name="" value="" id="liter">
+      <button type="button" class="waterAdd" name="button">Submit</button>
+    </form>
+    <h2 class="hydratedMessage"></h2>
+    <button type="button" class="resetButton" name="button">Reset</button>
+  </div>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>

@@ -1,0 +1,177 @@
+body{
+  margin:0;
+  padding: 0;
+
+}
+.intro {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  height: 550px ;
+  width: 100%;
+}
+h1{
+  margin:0;
+  padding: 0;
+  text-align: center;
+  font-family: sans-serif;
+
+  margin-top: 0;
+  padding-top: 150px;
+}
+.welcome-div{
+
+  color: black;
+  margin:0;
+  padding: 0;
+
+  font-family: sans-serif;
+}
+.intro,.message,.welcome-div{
+  height: 550px ;
+  width: 100%;
+}
+.intro{
+  background-color: #e88a1a
+}
+.introh1{
+  color: #d9d9d9;
+  font-weight: bold;
+  font-family: "Lobster",cursive;
+}
+form{
+  border-style:  solid  ;
+  border-color:  #e88a1a ;
+  border-width: 3px;
+  width:600px;
+  padding: 20px;
+  position: relative;
+  left:20%;
+  top:30px;
+  border-radius: 50px 5px 50px 5px;
+  background-color: #d9d9d9
+
+}
+label,input{
+  padding: 20px;
+  margin-left: 150px;
+  display: block;
+}
+input{
+  padding: 10px;
+  width: 300px;
+  height: 15px;
+  border-radius: 15px;
+}
+
+.message{
+    display: none;
+    background-color: #fcf9ed;
+}
+.message-h2{
+    color:#e88a1a ;
+    text-align: center;
+    font-family: "signika",cursive;
+    position: relative;
+    top:210px;
+}
+button{
+  cursor: pointer;;
+}
+button:hover{
+  background-color: #e41749;
+}
+.add,.abc,.waterAdd{
+  cursor: pointer;
+  display: block;
+  position: relative;
+  left: 150px;
+  top:5px;
+  width:300px;
+  height: 30px;
+  border-radius: 15px;
+  z-index: 4;
+}
+.calorie{
+  background-color: #e88a1a ;
+  height: 550px;
+
+}
+
+.form-calorie{
+  display: none;
+}
+h2,h3{
+  margin:0;
+  padding:0;
+}
+
+.foodForm{
+  display: none;
+}
+.waterForm{
+  display: none;
+}
+.calorieMessageButton,.waterDivButton,.resetButton {
+  width: 400px;
+  height: 30px;
+  border-radius: 30px;
+}
+.calorieh3{
+  font-family: "Roboto",cursive;
+  margin-right: 30px;
+  color:#fcf9ed;
+}
+li{
+  font-family: serif;
+  color: #e41749;
+}
+.changeCalorieConsumed{
+  font-family: "Signika",sans-serif;
+  color:#fcf9ed;
+}
+#time{
+  position:relative;
+  bottom:100px;
+  font-family: "signika",sans-serif;
+}
+.water{
+  height:700px;
+  background-color: #fcf9ed;
+}
+.waterForm{
+
+}
+.waterConsumedUl{
+  color: #e88a1a ;
+}
+.hydratedMessage{
+  position: relative;
+  top:50px;
+}
+.welcome-div{
+  background-color: #fcf9ed;
+}
+.resetButton{
+  position: relative;
+  top:100px;
+}
+@media  (max-width:800px) {
+  form{
+    margin: 0;
+    left: 0%;
+    width: 90%;
+    overflow: auto;
+
+
+
+
+  }
+  button{
+
+    left:0;
+    width:100%
+    overflow:hidden;
+  }
+
+}
