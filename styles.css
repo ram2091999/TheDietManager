@@ -173,5 +173,9 @@ li{
     width:100%
     overflow:hidden;
   }
+  input,label{
+    margin:0;
+    width:100%;
+  }
 
 }
